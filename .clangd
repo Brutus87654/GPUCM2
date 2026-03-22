@@ -1,0 +1,8 @@
+CompileFlags:
+  Add:
+    - -x
+    - cuda
+    - --cuda-path=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
+    - --cuda-gpu-arch=sm_86
+    - --cuda-host-only
+    - -IC:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\include
